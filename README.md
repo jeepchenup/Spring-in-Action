@@ -8,9 +8,9 @@ Although most of the source code implementations are available in this book, the
 
 At the same time, our local environment is different, which may lead to some detailed configuration differences. Above factors prompted me to rewrite a complete source code.
 
-## IED
+## IDE
 
-![](/intellij-idea_logo.png) Intellij IDEA
+<img src="/intellij-idea_logo.png" width="150" height="150"> Intellij IDEA
 
 ## Server
 
