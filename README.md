@@ -10,7 +10,7 @@ At the same time, our local environment is different, which may lead to some det
 
 ## IED
 
-eclipse
+![](/intellij-idea_logo.png) Intellij IDEA
 
 ## Server
 
