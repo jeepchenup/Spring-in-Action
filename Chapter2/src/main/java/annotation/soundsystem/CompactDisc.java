@@ -1,4 +1,4 @@
-package soundsystem;
+package annotation.soundsystem;
 
 public interface CompactDisc{
 

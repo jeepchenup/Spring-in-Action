@@ -16,3 +16,13 @@ At the same time, our local environment is different, which may lead to some det
 
 ![](http://tomcat.apache.org/res/images/tomcat.png)
 Tomcat
+
+## What you can learn from this book?
+
+1.  Learn how to use spring to simplify development.
+1.  Learn how to use [Mockito](https://github.com/mockito/mockito) and [Junit](https://junit.org/junit4/) to test Srping.
+
+### Inconsistent Statement
+
+-   In Charpter 2, it will introduce three ways to wire the spring bean. So I will use 3 different packages to introduce them, such as `annotation.*`, `xml.*` and `javaconfig.*`.
+    ![](cha2-1.png)
