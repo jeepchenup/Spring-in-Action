@@ -25,4 +25,5 @@ Tomcat
 ### Inconsistent Statement
 
 -   In Charpter 2, it will introduce three ways to wire the spring bean. So I will use 3 different packages to introduce them, such as `annotation.*`, `xml.*` and `javaconfig.*`.
+    
     ![](cha2-1.png)
