@@ -11,8 +11,8 @@ import static org.junit.Assert.assertNotNull;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = "/profiles-bean.xml")
-//@ActiveProfiles("Dev")
-@ActiveProfiles("QA")
+@ActiveProfiles("Dev")
+//@ActiveProfiles("QA")
 public class ProfileTest {
 
     @Autowired
