@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="76a12fd2-876f-4571-8fff-13dcbb6b0c6e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springinaction/profile/DevProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springinaction/profile/DevProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/profiles-bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/profiles-bean.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/springinaction/profile/ProfileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/springinaction/profile/ProfileTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,55 +16,60 @@
     <session id="678519478">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="8" />
-          <entry key="xml" value="1" />
+          <entry key="class" value="4" />
+          <entry key="java" value="32" />
+          <entry key="properties" value="3" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="8" />
-          <entry key="XML" value="1" />
+          <entry key="CLASS" value="4" />
+          <entry key="JAVA" value="32" />
+          <entry key="Properties" value="3" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="295" />
-          <entry key="xml" value="79" />
+          <entry key="java" value="1873" />
+          <entry key="properties" value="35" />
+          <entry key="xml" value="290" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="295" />
-          <entry key="XML" value="79" />
+          <entry key="JAVA" value="1873" />
+          <entry key="Properties" value="35" />
+          <entry key="XML" value="290" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.spring.core.usages.trigger">
+        <counts>
+          <entry key="actions.SpringChangeActiveProfiles" value="2" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/profiles-bean.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/springinaction/profile/ProfileTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/springinaction/addressAmbiguity/DessertConfigTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="225">
+              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,26 +77,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/profile/DevProfile.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/desserts-bean.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-              <folding>
-                <element signature="e#150#151#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="87">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/profile/QAProfile.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/addressAmbiguity/PersonalDessert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+            <state relative-caret-position="242">
+              <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
               <folding>
-                <element signature="e#102#103#0" expanded="true" />
-                <element signature="e#148#149#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,6 +105,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="Class" />
@@ -122,8 +123,25 @@
         <option value="$PROJECT_DIR$/src/main/java/com/springinaction/profile/QAProfile.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springinaction/profile/TestProfile.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springinaction/profile/DevProfile.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/profiles-bean.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/springinaction/profile/ProfileTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/conditionbean.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/conditionbean/ConditionBeanConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/springinaction/conditionbean/ConditionBeanConfigTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/conditionbean/MagicBean.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/profiles-bean.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/conditionbean/MagicExistCondition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/com/springinaction/addressAmbiguity/Dessert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/com/springinaction/addressAmbiguity/Cookies.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/com/springinaction/addressAmbiguity/Cake.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/com/springinaction/addressAmbiguity/IceCream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/com/springinaction/addressAmbiguity/DessertConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/addressAmbiguity/DessertConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/addressAmbiguity/Cookies.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/addressAmbiguity/Cake.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/addressAmbiguity/IceCream.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/springinaction/addressAmbiguity/DessertConfigTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/addressAmbiguity/PersonalDessert.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/desserts-bean.xml" />
       </list>
     </option>
   </component>
@@ -140,11 +158,37 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Chapter3" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Chapter3" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Chapter3" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Chapter3" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
-    <option name="width" value="1939" />
-    <option name="height" value="1049" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -154,7 +198,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -166,11 +209,6 @@
             <path>
               <item name="Chapter3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Chapter3" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chapter3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chapter3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -192,7 +230,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="profile" type="462c0819:PsiDirectoryNode" />
+              <item name="springinaction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chapter3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chapter3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springinaction" type="462c0819:PsiDirectoryNode" />
+              <item name="addressAmbiguity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Chapter3" type="b2602c69:ProjectViewProjectNode" />
@@ -220,21 +267,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="profile" type="462c0819:PsiDirectoryNode" />
+              <item name="springinaction" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="@Condition&#9;PSI&#9;JAVA://org.springframework.context.annotation.Conditional" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535810143783" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535884268514" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -253,7 +303,69 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.DessertConfigTest.shouldBeIceCream">
+    <configuration name="ConditionBeanConfigTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Chapter3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springinaction.conditionbean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springinaction.conditionbean" />
+      <option name="MAIN_CLASS_NAME" value="com.springinaction.conditionbean.ConditionBeanConfigTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConditionBeanConfigTest.magicBeanShouldNotBeNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Chapter3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springinaction.conditionbean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springinaction.conditionbean" />
+      <option name="MAIN_CLASS_NAME" value="com.springinaction.conditionbean.ConditionBeanConfigTest" />
+      <option name="METHOD_NAME" value="magicBeanShouldNotBeNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DessertConfigTest.dessertShouldNotBeNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Chapter3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springinaction.addressAmbiguity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springinaction.addressAmbiguity" />
+      <option name="MAIN_CLASS_NAME" value="com.springinaction.addressAmbiguity.DessertConfigTest" />
+      <option name="METHOD_NAME" value="dessertShouldNotBeNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DessertConfigTest.shouldBeIceCream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Chapter3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springinaction.addressAmbiguity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springinaction.addressAmbiguity" />
+      <option name="MAIN_CLASS_NAME" value="com.springinaction.addressAmbiguity.DessertConfigTest" />
+      <option name="METHOD_NAME" value="shouldBeIceCream" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProfileTest.testProfile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chapter3" />
       <extension name="coverage">
@@ -270,8 +382,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.ProfileTest.testProfile" />
+      <item itemvalue="JUnit.ConditionBeanConfigTest.magicBeanShouldNotBeNull" />
+      <item itemvalue="JUnit.ConditionBeanConfigTest" />
+      <item itemvalue="JUnit.DessertConfigTest.dessertShouldNotBeNull" />
+      <item itemvalue="JUnit.DessertConfigTest.shouldBeIceCream" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DessertConfigTest.shouldBeIceCream" />
+        <item itemvalue="JUnit.DessertConfigTest.dessertShouldNotBeNull" />
+        <item itemvalue="JUnit.ConditionBeanConfigTest" />
+        <item itemvalue="JUnit.ConditionBeanConfigTest.magicBeanShouldNotBeNull" />
         <item itemvalue="JUnit.ProfileTest.testProfile" />
       </list>
     </recent_temporary>
@@ -286,70 +409,123 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535806541200</updated>
-      <workItem from="1535806542864" duration="3878000" />
+      <workItem from="1535806542864" duration="4266000" />
+      <workItem from="1535859539795" duration="1279000" />
+      <workItem from="1535866848864" duration="189000" />
+      <workItem from="1535867063234" duration="14903000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProfileTest_testProfile - 2018.09.01 at 21h 22m 21s.xml">
-      <configuration name="ProfileTest.testProfile" configurationId="JUnit" />
+    <history-entry file="DessertConfigTest_dessertShouldNotBeNull - 2018.09.02 at 17h 51m 47s.xml">
+      <configuration name="DessertConfigTest.dessertShouldNotBeNull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProfileTest_testProfile - 2018.09.01 at 21h 24m 00s.xml">
-      <configuration name="ProfileTest.testProfile" configurationId="JUnit" />
+    <history-entry file="DessertConfigTest_dessertShouldNotBeNull - 2018.09.02 at 18h 09m 53s.xml">
+      <configuration name="DessertConfigTest.dessertShouldNotBeNull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProfileTest_testProfile - 2018.09.01 at 21h 24m 15s.xml">
-      <configuration name="ProfileTest.testProfile" configurationId="JUnit" />
+    <history-entry file="DessertConfigTest_dessertShouldNotBeNull - 2018.09.02 at 18h 11m 27s.xml">
+      <configuration name="DessertConfigTest.dessertShouldNotBeNull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProfileTest_testProfile - 2018.09.01 at 21h 27m 25s.xml">
-      <configuration name="ProfileTest.testProfile" configurationId="JUnit" />
+    <history-entry file="DessertConfigTest_dessertShouldNotBeNull - 2018.09.02 at 18h 11m 45s.xml">
+      <configuration name="DessertConfigTest.dessertShouldNotBeNull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProfileTest_testProfile - 2018.09.01 at 21h 48m 48s.xml">
-      <configuration name="ProfileTest.testProfile" configurationId="JUnit" />
+    <history-entry file="DessertConfigTest_shouldBeIceCream - 2018.09.02 at 18h 23m 05s.xml">
+      <configuration name="DessertConfigTest.shouldBeIceCream" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DessertConfigTest_shouldBeIceCream - 2018.09.02 at 18h 24m 08s.xml">
+      <configuration name="DessertConfigTest.shouldBeIceCream" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DessertConfigTest_shouldBeIceCream - 2018.09.02 at 18h 26m 16s.xml">
+      <configuration name="DessertConfigTest.shouldBeIceCream" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DessertConfigTest_shouldBeIceCream - 2018.09.02 at 18h 26m 40s.xml">
+      <configuration name="DessertConfigTest.shouldBeIceCream" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DessertConfigTest_shouldBeIceCream - 2018.09.02 at 18h 27m 29s.xml">
+      <configuration name="DessertConfigTest.shouldBeIceCream" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DessertConfigTest_shouldBeIceCream - 2018.09.02 at 18h 27m 56s.xml">
+      <configuration name="DessertConfigTest.shouldBeIceCream" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3878000" />
+    <option name="totallyTimeSpent" value="20637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25938338" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.32907802" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297587" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2600536" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32907802" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32907802" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -373,12 +549,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/springinaction/profile/ProfileTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/profile/DevProfile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        <state relative-caret-position="88">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -394,20 +570,239 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/profile/DevProfile.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/springinaction/profile/ProfileTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="195">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <element signature="e#150#151#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE-sources.jar!/org/springframework/context/annotation/Conditional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="52" column="2" lean-forward="true" selection-start-line="52" selection-start-column="2" selection-end-line="52" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.14.RELEASE/spring-core-4.3.14.RELEASE.jar!/org/springframework/core/env/Environment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.14.RELEASE/spring-core-4.3.14.RELEASE.jar!/org/springframework/core/env/ConfigurableEnvironment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.14.RELEASE/spring-core-4.3.14.RELEASE.jar!/org/springframework/core/env/StandardEnvironment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.14.RELEASE/spring-core-4.3.14.RELEASE-sources.jar!/org/springframework/core/env/Environment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.14.RELEASE/spring-core-4.3.14.RELEASE-sources.jar!/org/springframework/core/env/StandardEnvironment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-321">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.14.RELEASE/spring-test-4.3.14.RELEASE.jar!/org/springframework/mock/env/MockEnvironment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.14.RELEASE/spring-test-4.3.14.RELEASE-sources.jar!/org/springframework/mock/env/MockEnvironment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.14.RELEASE/spring-core-4.3.14.RELEASE-sources.jar!/org/springframework/core/env/ConfigurableEnvironment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="67" column="13" lean-forward="true" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Before.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE-sources.jar!/org/springframework/context/annotation/ConditionContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conditionbean.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/springinaction/conditionbean/ConditionBeanConfigTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/conditionbean/MagicBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding>
+            <element signature="e#91#92#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/profiles-bean.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="220">
+          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/conditionbean/ConditionBeanConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE-sources.jar!/org/springframework/context/annotation/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/conditionbean/MagicExistCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/addressAmbiguity/Dessert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/addressAmbiguity/Cookies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/addressAmbiguity/Cake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/addressAmbiguity/IceCream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/addressAmbiguity/DessertConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/springinaction/addressAmbiguity/DessertConfigTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/addressAmbiguity/PersonalDessert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/desserts-bean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>

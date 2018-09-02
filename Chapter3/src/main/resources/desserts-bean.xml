@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="cookies" primary="true" class="com.springinaction.addressAmbiguity.Cookies">
+        <constructor-arg value="cookies"/>
+    </bean>
+
+    <bean id="cake" primary="false" class="com.springinaction.addressAmbiguity.Cake">
+        <constructor-arg value="cake"/>
+    </bean>
+
+    <bean id="iceCream" primary="false" class="com.springinaction.addressAmbiguity.IceCream">
+        <constructor-arg value="iceCream"/>
+    </bean>
+
+    <bean id="personalDessert" class="com.springinaction.addressAmbiguity.PersonalDessert"/>
+</beans>
