@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="76a12fd2-876f-4571-8fff-13dcbb6b0c6e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/runtimeInject.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/runtimeInject.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/springinaction/runtimeInject/ELAnnotationRuntimeInjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/springinaction/runtimeInject/ELAnnotationRuntimeInjectTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/springinaction/runtimeInject/RuntimeInjectConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/springinaction/runtimeInject/RuntimeInjectConfigTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -12,47 +15,66 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="678519478">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.44" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.46" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="4" />
-          <entry key="java" value="52" />
-          <entry key="properties" value="6" />
-          <entry key="xml" value="7" />
+          <entry key="Annotation" value="1" />
+          <entry key="class" value="5" />
+          <entry key="java" value="70" />
+          <entry key="properties" value="7" />
+          <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="52" />
-          <entry key="Properties" value="6" />
-          <entry key="XML" value="7" />
+          <entry key="CLASS" value="5" />
+          <entry key="JAVA" value="70" />
+          <entry key="Properties" value="7" />
+          <entry key="UML" value="1" />
+          <entry key="XML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="13" />
-          <entry key="java" value="3601" />
-          <entry key="properties" value="95" />
+          <entry key="dummy" value="32" />
+          <entry key="java" value="4181" />
+          <entry key="properties" value="187" />
           <entry key="xml" value="476" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3601" />
-          <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Properties" value="95" />
+          <entry key="JAVA" value="4181" />
+          <entry key="PLAIN_TEXT" value="32" />
+          <entry key="Properties" value="187" />
           <entry key="XML" value="476" />
         </counts>
       </usages-collector>
@@ -69,37 +91,26 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/runtimeInject.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/runtimeInject/Teacher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/springinaction/runtimeInject/RuntimeInjectConfigTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="198">
+              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/runtimeInject/Teacher.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/runtimeInject/MySystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="323">
+              <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#247#256#1" expanded="true" />
-                <element signature="e#278#286#1" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,34 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/runtimeInject/ELRuntimeInjectConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/EL-runtimeInject.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="12" selection-end-column="11" />
-              <folding>
-                <element signature="e#668#677#0" expanded="true" />
-                <element signature="e#721#731#0" expanded="true" />
-                <element signature="e#775#786#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/springinaction/runtimeInject/ELRuntimeInjectTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state relative-caret-position="88">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,11 +131,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/springinaction/runtimeInject/ELAnnotationRuntimeInjectTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+            <state relative-caret-position="91">
+              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/runtimeInject.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -166,6 +160,12 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>count</find>
+      <find>systemProperties</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -206,14 +206,17 @@
         <option value="$PROJECT_DIR$/src/test/java/com/springinaction/scope/SingletonTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/springinaction/scope/PrototypeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springinaction/runtimeInject/RuntimeInjectConfig.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/springinaction/runtimeInject/RuntimeInjectConfigTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springinaction/runtimeInject/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/runtimeInject.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/springinaction/runtimeInject/ELRuntimeInjectTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/springinaction/runtimeInject/ELAnnotationRuntimeInjectTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springinaction/runtimeInject/Teacher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/runtimeInject/ELRuntimeInjectConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/EL-runtimeInject.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/runtimeInject/English.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/springinaction/runtimeInject/RuntimeInjectConfigTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/springinaction/runtimeInject/ELAnnotationRuntimeInjectTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/runtimeInject.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/runtimeInject/ELRuntimeInjectConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/runtimeInject/Classes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springinaction/runtimeInject/MySystem.java" />
       </list>
     </option>
   </component>
@@ -270,7 +273,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -350,31 +353,25 @@
               <item name="springinaction" type="462c0819:PsiDirectoryNode" />
               <item name="runtimeInject" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Chapter3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chapter3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springinaction" type="462c0819:PsiDirectoryNode" />
-              <item name="scope" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="@Condition&#9;PSI&#9;JAVA://org.springframework.context.annotation.Conditional" />
+    <property name="SearchEverywhereHistoryKey" value="classes&#9;FILE&#9;file://C:/Users/jeepc/git/Spring-in-Action/Chapter3/src/main/java/com/springinaction/runtimeInject/Classes.java&#10;ExpressionParser&#9;PSI&#9;JAVA://org.springframework.expression.ExpressionParser&#10;runtimeInject.pr&#9;FILE&#9;file://C:/Users/jeepc/git/Spring-in-Action/Chapter3/src/main/resources/runtimeInject.properties&#10;annotation&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_121/jre/lib/rt.jar!/java/lang/annotation&#10;@Condition&#9;PSI&#9;JAVA://org.springframework.context.annotation.Conditional" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535984048168" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536066522581" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -393,7 +390,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ELAnnotationRuntimeInjectTest.teacherShouldNotNull">
+  <component name="RunManager" selected="JUnit.ELAnnotationRuntimeInjectTest.classesShouldNotBeNull">
+    <configuration name="ELAnnotationRuntimeInjectTest.classesShouldNotBeNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Chapter3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springinaction.runtimeInject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springinaction.runtimeInject" />
+      <option name="MAIN_CLASS_NAME" value="com.springinaction.runtimeInject.ELAnnotationRuntimeInjectTest" />
+      <option name="METHOD_NAME" value="classesShouldNotBeNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ELAnnotationRuntimeInjectTest.teacherShouldNotNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chapter3" />
       <extension name="coverage">
@@ -426,17 +439,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrototypeTest.testPrototypeBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RuntimeInjectConfigTest.classesShouldNotBeNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chapter3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springinaction.scope.*" />
+          <option name="PATTERN" value="com.springinaction.runtimeInject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.springinaction.scope" />
-      <option name="MAIN_CLASS_NAME" value="com.springinaction.scope.PrototypeTest" />
-      <option name="METHOD_NAME" value="testPrototypeBean" />
+      <option name="PACKAGE_NAME" value="com.springinaction.runtimeInject" />
+      <option name="MAIN_CLASS_NAME" value="com.springinaction.runtimeInject.RuntimeInjectConfigTest" />
+      <option name="METHOD_NAME" value="classesShouldNotBeNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -458,36 +471,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTest.testSingletonBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Chapter3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.springinaction.scope.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.springinaction.scope" />
-      <option name="MAIN_CLASS_NAME" value="com.springinaction.scope.SingletonTest" />
-      <option name="METHOD_NAME" value="testSingletonBean" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.SingletonTest.testSingletonBean" />
-      <item itemvalue="JUnit.PrototypeTest.testPrototypeBean" />
       <item itemvalue="JUnit.RuntimeInjectConfigTest.studentShouldNotBeNull" />
       <item itemvalue="JUnit.ELRuntimeInjectTest.studentShouldNotBeNull" />
       <item itemvalue="JUnit.ELAnnotationRuntimeInjectTest.teacherShouldNotNull" />
+      <item itemvalue="JUnit.RuntimeInjectConfigTest.classesShouldNotBeNull" />
+      <item itemvalue="JUnit.ELAnnotationRuntimeInjectTest.classesShouldNotBeNull" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ELAnnotationRuntimeInjectTest.classesShouldNotBeNull" />
+        <item itemvalue="JUnit.RuntimeInjectConfigTest.classesShouldNotBeNull" />
         <item itemvalue="JUnit.ELAnnotationRuntimeInjectTest.teacherShouldNotNull" />
         <item itemvalue="JUnit.ELRuntimeInjectTest.studentShouldNotBeNull" />
         <item itemvalue="JUnit.RuntimeInjectConfigTest.studentShouldNotBeNull" />
-        <item itemvalue="JUnit.PrototypeTest.testPrototypeBean" />
-        <item itemvalue="JUnit.SingletonTest.testSingletonBean" />
       </list>
     </recent_temporary>
   </component>
@@ -505,51 +502,53 @@
       <workItem from="1535859539795" duration="1279000" />
       <workItem from="1535866848864" duration="189000" />
       <workItem from="1535867063234" duration="15502000" />
-      <workItem from="1535963801126" duration="13409000" />
+      <workItem from="1535963801126" duration="13603000" />
+      <workItem from="1536057199303" duration="599000" />
+      <workItem from="1536059325749" duration="430000" />
+      <workItem from="1536059787945" duration="6589000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SingletonTest_testSingletonBean - 2018.09.03 at 20h 22m 58s.xml">
-      <configuration name="SingletonTest.testSingletonBean" configurationId="JUnit" />
+    <history-entry file="ELAnnotationRuntimeInjectTest_classesShouldNotBeNull - 2018.09.04 at 20h 46m 41s.xml">
+      <configuration name="ELAnnotationRuntimeInjectTest.classesShouldNotBeNull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PrototypeTest_testPrototypeBean - 2018.09.03 at 20h 35m 48s.xml">
-      <configuration name="PrototypeTest.testPrototypeBean" configurationId="JUnit" />
+    <history-entry file="ELAnnotationRuntimeInjectTest_classesShouldNotBeNull - 2018.09.04 at 20h 48m 31s.xml">
+      <configuration name="ELAnnotationRuntimeInjectTest.classesShouldNotBeNull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RuntimeInjectConfigTest_studentShouldNotBeNull - 2018.09.03 at 21h 17m 29s.xml">
-      <configuration name="RuntimeInjectConfigTest.studentShouldNotBeNull" configurationId="JUnit" />
+    <history-entry file="ELAnnotationRuntimeInjectTest_classesShouldNotBeNull - 2018.09.04 at 20h 49m 42s.xml">
+      <configuration name="ELAnnotationRuntimeInjectTest.classesShouldNotBeNull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RuntimeInjectConfigTest_studentShouldNotBeNull - 2018.09.03 at 21h 18m 00s.xml">
-      <configuration name="RuntimeInjectConfigTest.studentShouldNotBeNull" configurationId="JUnit" />
+    <history-entry file="ELAnnotationRuntimeInjectTest_classesShouldNotBeNull - 2018.09.04 at 20h 50m 44s.xml">
+      <configuration name="ELAnnotationRuntimeInjectTest.classesShouldNotBeNull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ELRuntimeInjectTest_studentShouldNotBeNull - 2018.09.03 at 21h 52m 47s.xml">
-      <configuration name="ELRuntimeInjectTest.studentShouldNotBeNull" configurationId="JUnit" />
+    <history-entry file="ELAnnotationRuntimeInjectTest_classesShouldNotBeNull - 2018.09.04 at 20h 52m 35s.xml">
+      <configuration name="ELAnnotationRuntimeInjectTest.classesShouldNotBeNull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ELRuntimeInjectTest_studentShouldNotBeNull - 2018.09.03 at 21h 53m 16s.xml">
-      <configuration name="ELRuntimeInjectTest.studentShouldNotBeNull" configurationId="JUnit" />
+    <history-entry file="ELAnnotationRuntimeInjectTest_classesShouldNotBeNull - 2018.09.04 at 20h 53m 13s.xml">
+      <configuration name="ELAnnotationRuntimeInjectTest.classesShouldNotBeNull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ELRuntimeInjectTest_studentShouldNotBeNull - 2018.09.03 at 22h 07m 11s.xml">
-      <configuration name="ELRuntimeInjectTest.studentShouldNotBeNull" configurationId="JUnit" />
+    <history-entry file="ELAnnotationRuntimeInjectTest_classesShouldNotBeNull - 2018.09.04 at 20h 54m 18s.xml">
+      <configuration name="ELAnnotationRuntimeInjectTest.classesShouldNotBeNull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ELAnnotationRuntimeInjectTest_teacherShouldNotNull - 2018.09.03 at 22h 12m 02s.xml">
-      <configuration name="ELAnnotationRuntimeInjectTest.teacherShouldNotNull" configurationId="JUnit" />
+    <history-entry file="ELAnnotationRuntimeInjectTest_classesShouldNotBeNull - 2018.09.04 at 21h 03m 04s.xml">
+      <configuration name="ELAnnotationRuntimeInjectTest.classesShouldNotBeNull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ELAnnotationRuntimeInjectTest_teacherShouldNotNull - 2018.09.03 at 22h 12m 56s.xml">
-      <configuration name="ELAnnotationRuntimeInjectTest.teacherShouldNotNull" configurationId="JUnit" />
+    <history-entry file="ELAnnotationRuntimeInjectTest_classesShouldNotBeNull - 2018.09.04 at 21h 05m 03s.xml">
+      <configuration name="ELAnnotationRuntimeInjectTest.classesShouldNotBeNull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ELAnnotationRuntimeInjectTest_teacherShouldNotNull - 2018.09.03 at 22h 13m 34s.xml">
-      <configuration name="ELAnnotationRuntimeInjectTest.teacherShouldNotNull" configurationId="JUnit" />
+    <history-entry file="ELAnnotationRuntimeInjectTest_classesShouldNotBeNull - 2018.09.04 at 21h 08m 45s.xml">
+      <configuration name="ELAnnotationRuntimeInjectTest.classesShouldNotBeNull" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34645000" />
+    <option name="totallyTimeSpent" value="42457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2627346" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.2727882" />
+      <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.2727882" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -557,7 +556,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -567,47 +566,47 @@
       <window_info anchor="bottom" id="Spring" order="9" weight="0.32907802" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.32907802" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32907802" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297587" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2600536" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.2727882" />
+      <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.2727882" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32907802" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.32907802" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297587" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -621,34 +620,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/profile/Profile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/profile/TestProfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/profile/DevProfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/profile/QAProfile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -660,9 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -802,12 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -815,12 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -828,12 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -842,11 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -861,9 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="457">
           <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -871,12 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="113" column="20" lean-forward="true" selection-start-line="113" selection-start-column="20" selection-end-line="113" selection-end-column="20" />
-          <folding>
-            <element signature="e#3920#3921#0" expanded="true" />
-            <element signature="e#3966#3967#0" expanded="true" />
-            <element signature="e#4403#4404#0" expanded="true" />
-            <element signature="e#4455#4456#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -891,9 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -901,9 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="7" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -911,11 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
           <caret line="22" column="32" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -923,11 +848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
           <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -938,27 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/runtimeInject/RuntimeInjectConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="18" column="5" selection-start-line="16" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/runtimeInject/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/conditionbean.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -966,71 +865,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/runtimeInject.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/springinaction/runtimeInject/ELRuntimeInjectTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="330">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/springinaction/runtimeInject/ELAnnotationRuntimeInjectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="uml://JAVA/java.lang.annotation.Annotation">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.lang.annotation.Annotation</OriginalElement>
+          <nodes>
+            <node x="" y="">java.lang.annotation.Annotation</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="58.0" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/springinaction/runtimeInject/RuntimeInjectConfigTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.14.RELEASE/spring-test-4.3.14.RELEASE-sources.jar!/org/springframework/test/context/transaction/AfterTransaction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="495">
+          <caret line="47" column="34" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/runtimeInject/ELRuntimeInjectConfig.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/annotation/Annotation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/runtimeInject/Teacher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#247#256#1" expanded="true" />
-            <element signature="e#278#286#1" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/EL-runtimeInject.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="12" selection-end-column="11" />
+        <state relative-caret-position="176">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding>
             <element signature="e#668#677#0" expanded="true" />
             <element signature="e#721#731#0" expanded="true" />
@@ -1039,5 +916,171 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/springinaction/runtimeInject/RuntimeInjectConfigTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/4.3.14.RELEASE/spring-expression-4.3.14.RELEASE.jar!/org/springframework/expression/ExpressionParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/4.3.14.RELEASE/spring-expression-4.3.14.RELEASE-sources.jar!/org/springframework/expression/ExpressionParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/runtimeInject/RuntimeInjectConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/runtimeInject/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/runtimeInject/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/runtimeInject/ELRuntimeInjectConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/runtimeInject.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/springinaction/runtimeInject/ELAnnotationRuntimeInjectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springinaction/runtimeInject/MySystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Chapter3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: commons-logging:commons-logging:1.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

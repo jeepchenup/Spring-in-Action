@@ -15,9 +15,18 @@ public class ELAnnotationRuntimeInjectTest {
     @Autowired
     Teacher teacher;
 
+    @Autowired
+    MySystem classes;
+
     @Test
     public void teacherShouldNotNull() {
         assertNotNull(teacher);
         System.out.println(teacher);
+    }
+
+    @Test
+    public void classesShouldNotBeNull() {
+        assertNotNull(classes);
+        System.out.println(classes);
     }
 }
