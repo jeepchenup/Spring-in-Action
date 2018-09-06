@@ -1,8 +1,9 @@
-package com.springaop.service;
+package com.springaop.service.impl;
 
 import com.springaop.model.User;
+import com.springaop.service.UserService;
 
-public class UserServiceImpl implements UserService{
+public class UserServiceImpl implements UserService {
 
     private static User user = null;
 

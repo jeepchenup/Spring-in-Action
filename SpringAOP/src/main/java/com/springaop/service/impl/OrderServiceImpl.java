@@ -1,8 +1,9 @@
-package com.springaop.service;
+package com.springaop.service.impl;
 
 import com.springaop.model.Order;
+import com.springaop.service.OrderService;
 
-public class OrderServiceImpl implements OrderService{
+public class OrderServiceImpl implements OrderService {
 
     private static Order order = null;
 

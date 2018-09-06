@@ -3,8 +3,8 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="orderServiceImpl" class="com.springaop.service.OrderServiceImpl"/>
-    <bean id="userServiceImpl" class="com.springaop.service.UserServiceImpl"/>
+    <bean id="orderServiceImpl" class="com.springaop.service.impl.OrderServiceImpl"/>
+    <bean id="userServiceImpl" class="com.springaop.service.impl.UserServiceImpl"/>
 
     <!-- 定义两个 advice -->
     <bean id="logArgsAdvice" class="com.springaop.aop_spring_1_2.LogArgsAdvice"/>

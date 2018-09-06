@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="orderServiceImpl" class="com.springaop.service.impl.OrderServiceImpl"/>
+    <bean id="userServiceImpl" class="com.springaop.service.impl.UserServiceImpl"/>
+
+    <!-- 定义两个 advice -->
+    <bean id="logArgsAdvice" class="com.springaop.aop_spring_1_2.LogArgsAdvice"/>
+    <bean id="logResultAdvice" class="com.springaop.aop_spring_1_2.LogResultAdvice"/>
+
+    <bean class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
+        <property name="interceptorNames">
+            <list>
+                <value>logArgsAdvice</value>
+                <value>logResultAdvice</value>
+            </list>
+        </property>
+        <!-- 这里通过正则表达来匹配要拦截的 bean -->
+        <property name="beanNames" value="*ServiceImpl"/>
+    </bean>
+</beans>
