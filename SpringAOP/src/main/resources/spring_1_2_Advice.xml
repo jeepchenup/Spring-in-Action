@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="orderServiceImpl" class="com.springaop.service.OrderServiceImpl"/>
+    <bean id="userServiceImpl" class="com.springaop.service.UserServiceImpl"/>
+
+    <!-- 定义两个 advice -->
+    <bean id="logArgsAdvice" class="com.springaop.aop_spring_1_2.LogArgsAdvice"/>
+    <bean id="logResultAdvice" class="com.springaop.aop_spring_1_2.LogResultAdvice"/>
+
+    <!-- 我们的拦截器的粒度只控制到了类级别，类中所有的方法都进行了拦截。-->
+    <bean id="userServiceProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <!-- 代理的接口 -->
+        <property name="proxyInterfaces">
+            <list>
+                <value>com.springaop.service.UserService</value>
+            </list>
+        </property>
+
+        <!-- 代理的具体实现 -->
+        <property name="target" ref="userServiceImpl"/>
+
+        <!-- 配置拦截器，这里可以配置 advice、advisor、interceptor，这里先介绍 advice -->
+        <property name="interceptorNames">
+            <list>
+                <value>logArgsAdvice</value>
+                <value>logResultAdvice</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="orderServiceProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="proxyInterfaces">
+            <list>
+                <value>com.springaop.service.OrderService</value>
+            </list>
+        </property>
+        <property name="target" ref="orderServiceImpl"/>
+        <property name="interceptorNames">
+            <list>
+                <value>logArgsAdvice</value>
+                <value>logResultAdvice</value>
+            </list>
+        </property>
+    </bean>
+</beans>

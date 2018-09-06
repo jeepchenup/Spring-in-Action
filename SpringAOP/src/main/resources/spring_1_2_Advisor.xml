@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="orderServiceImpl" class="com.springaop.service.OrderServiceImpl"/>
+    <bean id="userServiceImpl" class="com.springaop.service.UserServiceImpl"/>
+
+    <!-- 定义两个 advice -->
+    <bean id="logArgsAdvice" class="com.springaop.aop_spring_1_2.LogArgsAdvice"/>
+    <bean id="logResultAdvice" class="com.springaop.aop_spring_1_2.LogResultAdvice"/>
+
+    <!-- 定义一个只拦截 createUser这个方法的 advisor -->
+    <bean id="logCreateAdvisor" class="org.springframework.aop.support.NameMatchMethodPointcutAdvisor">
+        <!-- advisor 实例的内部会有一个 advice -->
+        <property name="advice" ref="logArgsAdvice"/>
+
+        <!-- 下面指定被拦截的方法名称 -->
+        <property name="mappedNames" value="createUser"/>
+    </bean>
+
+    <!-- 定义代理 -->
+    <bean id="userServiceProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <!-- 指定代理的接口 -->
+        <property name="proxyInterfaces">
+            <list>
+                <value>com.springaop.service.UserService</value>
+            </list>
+        </property>
+
+        <!-- 指定代理的具体实现 -->
+        <property name="target" ref="userServiceImpl"/>
+
+        <!-- 最后配置拦截器，这里可以配置 advice, advisor, interceptor -->
+        <property name="interceptorNames">
+            <list>
+                <value>logCreateAdvisor</value>
+            </list>
+        </property>
+    </bean>
+
+    <!-- 定义一个只拦截 createOrder 这个方法的 advisor -->
+    <bean id="logResultAdvisor" class="org.springframework.aop.support.NameMatchMethodPointcutAdvisor">
+        <property name="advice" ref="logResultAdvice"/>
+        <property name="mappedNames" value="queryOrder"/>
+    </bean>
+
+    <!-- 定义代理 -->
+    <bean id="orderServiceProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="proxyInterfaces">
+            <list>
+                <value>com.springaop.service.OrderService</value>
+            </list>
+        </property>
+        <property name="target" ref="orderServiceImpl"/>
+        <property name="interceptorNames">
+            <list>
+                <value>logResultAdvisor</value>
+            </list>
+        </property>
+    </bean>
+</beans>
