@@ -16,7 +16,8 @@ public class Application {
 //        testInterceptor();
 //        test_1_2_BeanNameAutoProxy();
 //        test_1_2_DefaultAdvisorAutoProxy();
-        test_Spring_2_0_AspectJ();
+//        test_Spring_2_0_AspectJ();
+        test_Spring_2_0_Schema_Based();
     }
 
     public static void testSpring_1_2_Advice() {
@@ -84,6 +85,13 @@ public class Application {
 
     public static void test_Spring_2_0_AspectJ(){
         ApplicationContext context = new ClassPathXmlApplicationContext("classpath:spring_2_0_aspectj.xml");
+        UserService userService = context.getBean(UserService.class);
+        userService.createUser("Tom", "Cruise", 55);
+        userService.queryUser();
+    }
+
+    public static void test_Spring_2_0_Schema_Based() {
+        ApplicationContext context = new ClassPathXmlApplicationContext("classpath:spring_2_0_schema_based.xml");
         UserService userService = context.getBean(UserService.class);
         userService.createUser("Tom", "Cruise", 55);
         userService.queryUser();

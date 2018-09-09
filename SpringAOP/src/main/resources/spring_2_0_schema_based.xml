@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
 
     <bean id="orderServiceImpl" class="com.springaop.service.impl.OrderServiceImpl"/>
     <bean id="userServiceImpl" class="com.springaop.service.impl.UserServiceImpl"/>
 
+    <bean id="logArgsAspect" class="com.springaop.aop_spring_2_schema_based.LogArgsAspect"/>
+    <bean id="logResultAspect" class="com.springaop.aop_spring_2_schema_based.LogResultAspect"/>
+
+    <aop:config>
+
+        <!--这个是针对于全局的-->
+        <aop:pointcut id="logArgsPointcut" expression="execution(* com.springaop.service.*.*(..))"/>
+        <aop:pointcut id="logResultPointcut" expression="com.springaop.aop_spring_2_schema_based.SystemArchitecture.businessService()"/>
+
+        <aop:aspect ref="logArgsAspect">
+            <aop:before method="logArgs" pointcut-ref="logArgsPointcut"/>
+        </aop:aspect>
+        <aop:aspect ref="logResultAspect">
+            <aop:after-returning method="logResult" returning="result" pointcut-ref="logResultPointcut"/>
+        </aop:aspect>
+    </aop:config>
 </beans>
