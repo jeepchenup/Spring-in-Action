@@ -10,7 +10,6 @@
     <bean id="logResultAspect" class="com.springaop.aop_spring_2_schema_based.LogResultAspect"/>
 
     <aop:config>
-
         <!--这个是针对于全局的-->
         <aop:pointcut id="logArgsPointcut" expression="execution(* com.springaop.service.*.*(..))"/>
         <aop:pointcut id="logResultPointcut" expression="com.springaop.aop_spring_2_schema_based.SystemArchitecture.businessService()"/>

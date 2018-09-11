@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76a12fd2-876f-4571-8fff-13dcbb6b0c6e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter4/Chapter4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringAOP/src/main/resources/spring_2_0_schema_based.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringAOP/src/main/resources/spring_2_0_schema_based.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,17 +31,17 @@
     <session id="678519478">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.46" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -226,11 +227,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -240,8 +240,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -264,68 +263,14 @@
               <item name="Chapter3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Chapter3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chapter3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chapter3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springinaction" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chapter3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chapter3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springinaction" type="462c0819:PsiDirectoryNode" />
-              <item name="runtimeInject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chapter3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chapter3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chapter3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chapter3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chapter3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chapter3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chapter3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chapter3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springinaction" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chapter3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chapter3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springinaction" type="462c0819:PsiDirectoryNode" />
-              <item name="runtimeInject" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -475,6 +420,7 @@
       <workItem from="1536059787945" duration="9851000" />
       <workItem from="1536136141008" duration="1513000" />
       <workItem from="1536233869832" duration="158000" />
+      <workItem from="1536666231914" duration="93000" />
     </task>
     <servers />
   </component>
@@ -511,13 +457,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47390000" />
+    <option name="totallyTimeSpent" value="47483000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.2808311" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.5878285" />
       <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.2727882" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
