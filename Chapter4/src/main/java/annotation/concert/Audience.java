@@ -1,5 +1,6 @@
 package annotation.concert;
 
+import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
 
 /**
@@ -34,7 +35,7 @@ public class Audience {
     public void performance() {
     }
 
-    @Before("performance()")
+    /*@Before("performance()")
     public void silenceCellPhones() {// 表演之前
         System.out.println("手机静音");
     }
@@ -51,6 +52,19 @@ public class Audience {
 
     @AfterThrowing("performance()")
     public void demandRefund() {// 表演失败
-        System.out.pritnln("表演失败，要求退款.");
+        System.out.println("表演失败，要求退款.");
+    }*/
+
+    /*上面的通知其实都是针对于同一个方法，所以也可以通过 @Around 来实现*/
+    @Around("performance()")
+    public void watchPerformance(ProceedingJoinPoint joinPoint) {
+        try {
+            System.out.println("手机静音");
+            System.out.println("找到座位坐下");
+            joinPoint.proceed();
+            System.out.println("表演结束，鼓掌~~~");
+        } catch (Throwable throwable) {
+            System.out.println("表演失败，要求退款.");
+        }
     }
 }
