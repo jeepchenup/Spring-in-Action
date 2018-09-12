@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <context:component-scan base-package="xml.concert"/>
+    <bean id="audience" class="xml.concert.Audience"/>
+    <aop:config>
+        <aop:pointcut id="performace" expression="execution(* xml.concert.Performance.perform(..))"/>
+        <!--<aop:aspect ref="audience">
+            <aop:before method="silenceCellPhones" pointcut-ref="performace"/>
+            <aop:before method="takeSeats" pointcut-ref="performace"/>
+            <aop:after method="applause" pointcut-ref="performace"/>
+            <aop:after-throwing method="demandRefund" pointcut-ref="performace"/>
+        </aop:aspect>-->
+
+        <!--同样上面的也可以被 around 代替-->
+        <aop:aspect ref="audience">
+            <aop:around method="watchPerformance" pointcut-ref="performace"/>
+        </aop:aspect>
+    </aop:config>
+</beans>

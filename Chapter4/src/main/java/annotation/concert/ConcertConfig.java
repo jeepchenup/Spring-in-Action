@@ -14,4 +14,9 @@ public class ConcertConfig {
     public Audience audience() {
         return new Audience();
     }
+
+    @Bean
+    public EncoreableIntroducer encoreableIntroducer() {
+        return new EncoreableIntroducer();
+    }
 }
