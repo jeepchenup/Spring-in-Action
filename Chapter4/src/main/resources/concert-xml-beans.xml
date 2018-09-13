@@ -2,7 +2,12 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
        xmlns:context="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/aop
+                           http://www.springframework.org/schema/aop/spring-aop.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context.xsd">
     <context:component-scan base-package="xml.concert"/>
     <bean id="audience" class="xml.concert.Audience"/>
     <aop:config>
@@ -17,6 +22,49 @@
         <!--同样上面的也可以被 around 代替-->
         <aop:aspect ref="audience">
             <aop:around method="watchPerformance" pointcut-ref="performace"/>
+        </aop:aspect>
+    </aop:config>
+
+    <!--为通知传递参数-->
+    <bean id="trackCounter" class="xml.soundsystem.TrackCounter"/>
+    <bean id="cd" class="xml.soundsystem.BlankDisc">
+        <property name="title" value="Sgt. Pepper's Lonely Hearts Club Band"/>
+        <property name="artist" value="The Beatles" />
+        <property name="tracks">
+            <list>
+                <value>Sgt. Pepper's Lonely Hearts Club Band</value>
+                <value>With a Little Help from My Friends</value>
+                <value>Lucy in the Sky with Diamonds</value>
+                <value>Getting Better</value>
+                <value>Fixing a Hole</value>
+                <!-- ...other tracks omitted for brevity... -->
+            </list>
+        </property>
+    </bean>
+    <aop:config>
+        <!--把 trackCounter 声明为一个切面-->
+        <aop:aspect ref="trackCounter">
+            <aop:pointcut id="trackPlayed" expression="execution(* xml.soundsystem.CompactDisc.playTrack(int)) and args(trackNumber)"/>
+            <aop:before pointcut-ref="trackPlayed" method="countTrack"/>
+        </aop:aspect>
+    </aop:config>
+
+    <!-- 1. 通过切面'引入'新的功能-->
+    <!--<aop:config>
+        <aop:aspect>
+            <aop:declare-parents types-matching="xml.concert.Performance+"
+                                 implement-interface="xml.concert.Encoreable"
+                                 default-impl="xml.concert.DefaultEncoreable"/>
+        </aop:aspect>
+    </aop:config>-->
+
+    <!--2. default-impl 可以换成 delegate-ref-->
+    <bean id="defaultEncoreable" class="xml.concert.DefaultEncoreable"/>
+    <aop:config>
+        <aop:aspect>
+            <aop:declare-parents types-matching="xml.concert.Performance+"
+                                 implement-interface="xml.concert.Encoreable"
+                                 delegate-ref="defaultEncoreable"/>
         </aop:aspect>
     </aop:config>
 </beans>
