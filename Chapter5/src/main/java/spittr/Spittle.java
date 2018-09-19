@@ -53,4 +53,9 @@ public class Spittle {
     public int hashCode() {
         return HashCodeBuilder.reflectionHashCode(this, "id", "time");
     }
+
+    @Override
+    public String toString() {
+        return "[ Spittles : id - " + id + " - message " + message + " - c_time " + time + " - login " + latitude + " - logout " + longitude + " ]";
+    }
 }

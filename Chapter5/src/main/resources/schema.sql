@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS Spittle;
 create table Spittle (
 	id identity,
 	message varchar(140) not null,
@@ -5,7 +6,7 @@ create table Spittle (
 	latitude double,
 	longitude double
 );
-
+DROP TABLE IF EXISTS Spitter;
 create table Spitter (
 	id identity,
 	username varchar(20) unique not null,
@@ -14,3 +15,4 @@ create table Spitter (
 	last_name varchar(30) not null,
 	email varchar(30) not null
 );
+
