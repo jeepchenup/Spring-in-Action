@@ -3,6 +3,7 @@ package spittr.web;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -41,6 +42,14 @@ public class SpittleController {
     public String showSpittle(@RequestParam("spittle_id") long id, Model model) {
         Spittle spittle = spittleRepository.findOne(id);
         model.addAttribute(spittle);
+        return "spittle";
+    }
+
+    //下面这种写法要优于上面，通过 '/show' 来加载数据
+    @RequestMapping(value = "/{spittleId}", method = RequestMethod.GET)
+    public String spittle(@PathVariable("spittleId") long spittleId, Model model) {
+        Spittle spittle = spittleRepository.findOne(spittleId);
+        model.addAttribute("spittle", spittle);
         return "spittle";
     }
 }

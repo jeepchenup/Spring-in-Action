@@ -60,7 +60,7 @@ public class SpittleControllerTest {
     }
 
     @Test
-    public void testSpittle() throws Exception {
+    public void testShowSpittle() throws Exception {
         // 写好前提
         Spittle expectedSpittle = new Spittle("Hello", new Date());
         SpittleRepository mockRepository = mock(SpittleRepository.class);
@@ -71,6 +71,22 @@ public class SpittleControllerTest {
                             .setSingleView(new InternalResourceView("WEB-INF/views/spittle.jsp"))
                             .build();
         mockMvc.perform(get("/spittles/show?spittle_id=1"))
+                .andExpect(view().name("spittle"))
+                .andExpect(model().attributeExists("spittle"))
+                .andExpect(model().attribute("spittle", expectedSpittle));
+    }
+
+    @Test
+    public void testSpittle() throws Exception {
+        Spittle expectedSpittle = new Spittle("Hello", new Date());
+        SpittleRepository mockRepository = mock(SpittleRepository.class);
+        when(mockRepository.findOne(1)).thenReturn(expectedSpittle);
+
+        SpittleController controller = new SpittleController(mockRepository);
+        MockMvc mockMvc = standaloneSetup(controller)
+                            .setSingleView(new InternalResourceView("WEB-INF/views/spittle.jsp"))
+                            .build();
+        mockMvc.perform(get("/spittles/1"))
                 .andExpect(view().name("spittle"))
                 .andExpect(model().attributeExists("spittle"))
                 .andExpect(model().attribute("spittle", expectedSpittle));
