@@ -3,13 +3,11 @@ package spittr.web;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import spittr.Spittle;
 import spittr.data.SpittleRepository;
 
+import java.util.Date;
 import java.util.List;
 
 @Controller
@@ -48,8 +46,41 @@ public class SpittleController {
     //下面这种写法要优于上面，通过 '/show' 来加载数据
     @RequestMapping(value = "/{spittleId}", method = RequestMethod.GET)
     public String spittle(@PathVariable("spittleId") long spittleId, Model model) {
-        Spittle spittle = spittleRepository.findOne(spittleId);
+        Spittle spittle = null;
+        try {
+            spittle = spittleRepository.findOne(spittleId);
+        } catch (Exception e) {
+            System.out.println("can't found spittle by the id - " + spittleId);
+        }
+        if(spittle == null)
+            throw new SpittleNotFoundException();
+
         model.addAttribute("spittle", spittle);
         return "spittle";
+    }
+
+    @RequestMapping(method = RequestMethod.POST)
+    public String saveSpittle(SpittleForm form, Model model) {
+        /*try {
+            spittleRepository.save(new Spittle(null, form.getMessage(), new Date(),
+                    form.getLongitude(), form.getLatitude()));
+            return "redirect:/spittles";
+        } catch (DuplicateSpittleException e) {
+            return "error/duplicate";
+        }*/
+
+        // 上面这种写法，不利于测试
+        try {
+            spittleRepository.save(new Spittle(null, form.getMessage(), new Date(),
+                    form.getLongitude(), form.getLatitude()));
+        } catch (Exception e) {
+            throw new DuplicateSpittleException();
+        }
+        return "redirect:/spittles";
+    }
+
+    @ExceptionHandler(DuplicateSpittleException.class)
+    public String handleDuplicateSpittle() {
+        return "error/duplicate";
     }
 }
