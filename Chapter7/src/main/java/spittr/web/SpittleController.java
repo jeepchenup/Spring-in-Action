@@ -73,14 +73,15 @@ public class SpittleController {
         try {
             spittleRepository.save(new Spittle(null, form.getMessage(), new Date(),
                     form.getLongitude(), form.getLatitude()));
+            int i = 1/0;
         } catch (Exception e) {
             throw new DuplicateSpittleException();
         }
         return "redirect:/spittles";
     }
 
-    @ExceptionHandler(DuplicateSpittleException.class)
+    /*@ExceptionHandler(DuplicateSpittleException.class)
     public String handleDuplicateSpittle() {
-        return "error/duplicate";
-    }
+        return "redirect:/error/duplicate";
+    }*/
 }
